@@ -1,3 +1,15 @@
+# Step：
+
+```
+pnpm install
+
+pnpm play:dev or pnpm play:nuxt
+
+```
+
+# After resolving the proxy port issue, delete the warehouse
+
+# Ignore the following content
 
 # unplugin-hosts
 

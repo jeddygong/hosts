@@ -1,0 +1,31 @@
+{
+  "name": "@unplugin-hosts/core",
+  "version": "0.1.5",
+  "author": "csh@addcn.com",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*"
+      ]
+    }
+  },
+  "scripts": {
+    "bump": "bumpp --no-commit --no-tag --no-push",
+    "build": "tsup src/index.ts --format cjs,esm --dts"
+  },
+  "dependencies": {
+    "sudo-prompt": "^9.2.1"
+  }
+}

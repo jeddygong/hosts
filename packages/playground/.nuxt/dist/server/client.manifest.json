@@ -1,0 +1,18 @@
+{
+  "@vite/client": {
+    "prefetch": true,
+    "isEntry": true,
+    "file": "@vite/client",
+    "css": [],
+    "module": true,
+    "resourceType": "script"
+  },
+  "/Users/jeddygong/dev/unplugin-hosts/node_modules/.pnpm/nuxt@3.7.0_@types+node@18.11.18_eslint@8.31.0_typescript@4.9.4/node_modules/nuxt/dist/app/entry.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "isEntry": true,
+    "file": "/Users/jeddygong/dev/unplugin-hosts/node_modules/.pnpm/nuxt@3.7.0_@types+node@18.11.18_eslint@8.31.0_typescript@4.9.4/node_modules/nuxt/dist/app/entry.js"
+  }
+}

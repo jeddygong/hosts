@@ -13,7 +13,7 @@ pnpm play:dev or pnpm play:nuxt
 
 # unplugin-hosts
 
-> `/etc/hosts` 操纵器
+> `/etc/hosts` test git user & email
 
 ## 📓 背景
 

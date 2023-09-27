@@ -6,7 +6,6 @@ import type { Options } from './types'
 export default (options: Options, nuxt: Nuxt) => {
   nuxt.hook('vite:serverCreated', (_: unknown, { isServer }: { isServer: boolean }) => {
     if (!isServer) return
-    console.log(`options: ${JSON.stringify(options)}`)
     set(options.ip, options.host)?.then(() => {
       // workaround: compatible with nuxt 3.7
       const ENV_URL = process.env.__NUXT_DEV_PROXY__ || process.env.__NUXT_DEV_LISTENER__

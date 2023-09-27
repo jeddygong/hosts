@@ -7,7 +7,7 @@ pnpm play:dev or pnpm play:nuxt
 
 ```
 
-# After resolving the proxy port issue, delete the warehouse
+# After resolving the proxy port issue, delete the repository.
 
 # Ignore the following content
 

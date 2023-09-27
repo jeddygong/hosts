@@ -1,0 +1,9 @@
+node_modules
+dist
+coverage
+.nuxt
+
+.idea
+.DS_Store
+.pnpm-debug.log*
+*.local
